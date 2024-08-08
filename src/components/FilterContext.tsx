@@ -39,7 +39,7 @@ export const FilterProvider: React.FC<{ children: ReactNode }> = ({
         setKeyword,
       }}
     >
-      {children}
+      <div className="bg-[rgb(20,20,20)] text-white">{children}</div>
     </FilterContext.Provider>
   );
 };
